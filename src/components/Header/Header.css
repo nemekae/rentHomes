@@ -1,0 +1,63 @@
+.header {
+    /* fix header on top of the viewport */
+    position: fixed;
+    /* Align the header to the top,left and right edge */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* Ensure the header stays above other content */
+    z-index: 10;
+    /* use flexbox for layout */
+    display: flex;
+    justify-content:space-between;
+    /* set background color */
+    background-color: #262637;
+    /* use white text */
+    color: white;
+    /* add padding around * 10px = 0.625rem, 20px =1.25rem */
+    padding: 0.625rem 1.25rem; 
+}
+
+.item .icon {
+    /* Set the icon color */
+    color: #FE7F2D;
+    /* Add spacing to the right of the icon */
+    margin-right: 8px;
+}
+
+.item {
+    /* use flexbox for alignment */
+    display: flex;
+    /* Align items vertically */
+    align-items: center;
+}
+
+.item span {
+    /* make the text in between span bold */
+    font-weight: bold;
+}
+
+.brand {
+    /* increase the size of the logo */
+    font-weight: 1.5rem;
+}
+
+.contact {
+    /* decrease the size of the logo */
+    font-weight: 1rem;
+}
+
+/* Media query for small screens */
+@media (max-width: 800px){
+    .header {
+        /* Stack contact items vertically */
+        flex-direction: column;
+        /* Center items */
+        align-items: center;
+    }
+    .item {
+        /* Add spacing between items */
+        margin-bottom: 0.5rem;
+    }
+    
+}
