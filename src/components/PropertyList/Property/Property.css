@@ -1,0 +1,13 @@
+.property-card {
+    /* Add a border around the card */
+    border: 0.0625rem solid #ddd;
+    /* Round the corners of the card */
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem;
+    /* Add spacing around the card */
+    margin: 1.25rem;
+    /* Ensure child elements do not overflow the card */
+    overflow: hidden;
+    /* Ensure all cards have the same width */
+    width: 18.75rem; /* 300px = 18.75rem */
+}

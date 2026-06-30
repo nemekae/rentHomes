@@ -1,0 +1,8 @@
+.property-label {
+    /* Add a semi-transparent background */
+    background-color: rgba(44, 222, 182, 0.9);
+    /* Set the text color to white */
+    color: #ffffff;
+    /* add padding inside the label */
+    padding: 0.3125rem 0.625rem;
+}

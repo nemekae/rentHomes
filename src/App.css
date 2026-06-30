@@ -3,3 +3,18 @@ html {
     font-size: 16px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times, serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
+
+.app {
+    /* Default margin-top */
+    margin-top: 4rem;
+    /* Add margin-bottom */
+    margin-bottom: 8rem;
+}
+
+/* Media query for lower screen size */
+@media (max-width: 800px) {
+    .app{
+        /* Increase margin-top for smaller screens */
+        margin-top: 10rem;
+    }
+}
