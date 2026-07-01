@@ -1,0 +1,10 @@
+.icon-text {
+    /* Ensure proper alignment of text and icons */
+    display: inline-flex;
+    /* Align text and icons vertically */
+    align-items: center;
+    /* Add a small space between icon and text */
+    gap: 0.25rem;
+    /* Leave space between Icontext components */
+    margin: 0 0.25rem;
+}

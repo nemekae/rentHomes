@@ -11,3 +11,21 @@
     /* Ensure all cards have the same width */
     width: 18.75rem; /* 300px = 18.75rem */
 }
+
+.property-info {
+    /* Add a semi-transparent background */
+    background: rgba(0, 0, 0, 0.7);
+    /* Set the text color to white */
+    color: #fff;
+    /* Set the font size of the text */
+    font-size: 0.875rem;
+    /* Position the info box within the image */
+    position: absolute;
+    /* Position the info box from the bottom and right */
+    bottom: 0.625rem;
+    right: 0.625rem;
+    /* Add padding & border radius to improve appearance */
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.25rem;
+
+}

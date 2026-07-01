@@ -1,8 +1,22 @@
 .property-label {
+    /* Position the label absolutely within the card */
+    position: absolute;
+    /* Position the label 0.625rem from the top and the right */
+    top: 0.625rem;
+    right: 0.625rem;
     /* Add a semi-transparent background */
-    background-color: rgba(44, 222, 182, 0.9);
+    background-color: #215E61;
     /* Set the text color to white */
     color: #ffffff;
     /* add padding inside the label */
     padding: 0.3125rem 0.625rem;
+    /* Round the corners of the label */
+    border-radius: 0.25rem;
+    /* Set the font-size of the text */
+    font-size: 0.75rem;
+    /* Make the text bold */
+    font-weight: bold;
+    /* Convert the text to uppercase */
+    text-transform: uppercase;
+
 }

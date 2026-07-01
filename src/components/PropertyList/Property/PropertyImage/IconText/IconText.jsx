@@ -1,10 +1,10 @@
 import './IconText.css';
 
 
-export const IconText = () => {
+export const IconText = ({ Icon, text }) => {
   return (
-    <span>
-        
+    <span className='icon-text'>
+        <Icon /> {" "}{text}
     </span>
   )
 }
